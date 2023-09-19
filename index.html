@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <script src="app.js" defer></script>
+    <title>About me</title>
+  </head>
+  <body>
+    <header>
+      <img
+        id="imgtop"
+        src="assets/images/FBprofilepic.jpg"
+        title="Profile Picture"
+        alt="Picture of Andrew Fennell in Berlin"
+      />
+
+      <h1>Hi there, I'm Andrew Fennell</h1>
+    </header>
+
+    <main>
+      <h2 id="welcome"></h2>
+      <h2>Welcome to my 'About Me' page</h2>
+      <h3>Prepare to learn all things Andy!</h3>
+      <p>Some quick fire facts -</p>
+      <ul>
+        <li>
+          Born in 1984, while it is hard to believe due to my natural youthful
+          looks, I am 39 years old &#128116;
+        </li>
+        <li>
+          Now living in my hometown in the suburbs of Merseyside, I had
+          previously lived in and around Liverpool City centre for about 10
+          years &#127968;
+        </li>
+        <li>
+          I live with my partner Haylee, and we recently got engaged! &#128141;
+        </li>
+        <li>
+          I have had many varied jobs in the past, but have been working in the
+          tech industry for the past 18 months &#128187;
+        </li>
+        <li>
+          Hobbies include travelling &#9992;, music &#127911;, TV &#128250;,
+          gaming &#128377;, and football &#9917; (including football shirt
+          collecting &#128085;)
+        </li>
+      </ul>
+      <marquee behavior="scroll" direction="left" scrollamount="15">
+        <img
+          class="marq imgland1"
+          src="assets/images/bike.jpg"
+          alt="Cycling in Bolivia"
+        />
+        <img
+          class="marq imgport"
+          src="assets/images/engage.jpg"
+          alt="Engagment picture"
+        />
+        <img
+          class="marq"
+          src="assets/images/festival.jpg"
+          alt="At Parklife festival"
+        />
+        <img
+          class="marq"
+          src="assets/images/mountain.jpg"
+          alt="Climbing Ben A'an in Scotland"
+        />
+        <img
+          class="marq imgland2"
+          src="assets/images/shirt.jpg"
+          alt="Dog walking in BVB shirt"
+        />
+      </marquee>
+
+      <h2>Pop quiz hot shot! Odd one out round</h2>
+      <p class="pquiz">Question one - Work</p>
+      <button class="button" onclick="myFunctionWork()">ANSWER ME!</button>
+      <p id="demowork"></p>
+      <p class="pquiz">Question two - Travel</p>
+      <button class="button" onclick="myFunctionTravel()">ANSWER ME!</button>
+      <p id="demotravel"></p>
+      <p class="pquiz">Question three - Football Shirts</p>
+      <button class="button" onclick="myFunctionShirts()">ANSWER ME!</button>
+      <p id="demoshirts"></p>
+      <p class="pquiz">Question four - Music</p>
+      <button class="button" onclick="myFunctionMusic()">ANSWER ME!</button>
+      <p id="demomusic"></p>
+      <p class="pquiz">Question five - Gaming</p>
+      <button class="button" onclick="myFunctionGaming()">ANSWER ME!</button>
+      <p id="demogaming"></p>
+    </main>
+    <footer>
+      <h3 id="foot">Done by Andy&copy</h3>
+    </footer>
+  </body>
+</html>

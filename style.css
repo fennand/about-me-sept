@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: "Poppins", serif;
+  background-color: #002f6c;
+  background-image: linear-gradient(15deg, #002f6c 0%, #000 80%);
+  color: white;
+}
+
+header {
+  padding: 20px;
+  height: 150px;
+  border-bottom: 3px solid black;
+  background-color: #f06292;
+}
+
+main {
+  padding: 10px;
+}
+
+#imgtop {
+  width: 150px;
+  border: 1px solid #002f6c;
+  border-radius: 20%;
+  float: left;
+}
+
+img {
+  width: 300px;
+  border-radius: 10%;
+}
+
+.imgland1 {
+  width: 700px;
+  border-radius: 10%;
+}
+
+.imgland2 {
+  width: 410px;
+  border-radius: 10%;
+}
+
+.imgport {
+  width: 250px;
+  border-radius: 10%;
+}
+
+h1 {
+  float: left;
+  margin: 45px 0 45px 45px;
+  font-size: 48px;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 22px;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.marq {
+  margin-right: 200px;
+}
+
+.pquiz {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10%;
+  font-family: "Poppins", serif;
+}
+
+.button:hover {
+  background-color: #f06292;
+  color: white;
+}
+
+#demowork {
+  background-color: black;
+  padding: 10px;
+}
+
+#demotravel {
+  background-color: #f06292;
+  padding: 10px;
+}
+
+#demoshirts {
+  background-color: black;
+  padding: 10px;
+}
+
+#demomusic {
+  background-color: #f06292;
+  padding: 10px;
+}
+
+#demogaming {
+  background-color: black;
+  padding: 10px;
+}
+
+footer {
+  padding: 10px;
+  height: 60px;
+  border-top: 3px solid black;
+  background-color: #f06292;
+}
+
+#foot {
+  text-align: center;
+}
