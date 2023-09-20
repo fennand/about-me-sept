@@ -59,6 +59,7 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 22px;
+  color: #f06292;
 }
 
 p {
@@ -141,4 +142,16 @@ footer {
 
 #foot {
   text-align: center;
+}
+
+ol {
+  color: #f06292;
+}
+
+ol a {
+  color: #f06292;
+}
+
+a:hover {
+  color: white;
 }
