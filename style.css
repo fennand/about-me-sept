@@ -127,6 +127,11 @@ li {
   padding: 10px;
 }
 
+#demoguess {
+  background-color: black;
+  padding: 10px;
+}
+
 footer {
   padding: 10px;
   height: 60px;
